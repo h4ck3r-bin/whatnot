@@ -1,0 +1,107 @@
+{
+  "capsolver_key": "CAP-24CEB1E9794D0054964BD0B070CBD110",
+  "herosms": "",
+  "sms_pool": "",
+  "smsbower": "0BMI1spCIUJtf9TfHmAug1XGVQEEvoNm",
+  "smsonline": "",
+  "hyper": "cdc1b824-e9f0-40f8-8453-241cf0c24431",
+  "hyper_debug": false,
+  "success_webhook": "https://discord.com/api/webhooks/1472565551330230333/WuYfxmFE6tCwNl_Ay7oxDsoZ2DLcE6FEhGx-Z6t5p-B67fXDxdchWlxPtUiIoaANLcbN",
+  "error_webhook": "https://discord.com/api/webhooks/1474396960843890799/q7jk9St-HkMVDAfgCDnyTePojo_oazQJLoTPikoxPRRa8w_OxBXQKFr_vzIg85JTlQhJ",
+  "checkout_chance": 100,
+  "random_email": false,
+  "start_hour": 0,
+  "end_hour": 23,
+  "start_minute": 0,
+  "end_minute": 59,
+  "sms_service": [
+    "smsbower"
+  ],
+  "herosms_regions": [
+    "GB"
+  ],
+  "smspool_regions": [
+    "AT"
+  ],
+  "smsbower_regions": [
+    "AT"
+  ],
+  "smsonline_regions": [
+    "AT"
+  ],
+  "engine": {
+    "timezone": "Europe/London",
+    "proxy_file": "setup/proxies.txt",
+    "profiles_csv_path": "setup/profiles.csv",
+    "cards_csv_path": "setup/cards.csv",
+    "friend_codes_path": "setup/friend_codes.csv",
+    "baskets_json_path": "setup/baskets.json",
+    "discord_webhook_url": "",
+    "task_window_start": "00:01",
+    "task_window_end": "23:59",
+    "order_check_window_start": "16:00",
+    "order_check_window_end": "22:00",
+    "accounts_per_run": 10,
+    "task_concurrency": 1,
+    "master_candidate_percentage": 1,
+    "master_base_signup_cap": 100,
+    "master_cap_randomization_percentage": 20,
+    "master_aging_duration_hours": 168,
+    "master_health_check_interval": "4h",
+    "review_text_chance": 15,
+    "review_text_json_path": "setup/review_texts.json",
+    "review_preflight_min_follows": 10,
+    "review_preflight_max_follows": 100,
+    "review_username_attempts": 3,
+    "review_seller_feed_id": "CATEGORY_FEED_V2:TGl2ZXN0cmVhbVRhZ05vZGU6ODk5",
+    "review_seller_feed_filter": "t__907",
+    "review_seller_feed_object_size": 120,
+    "review_seller_feed_max_pages": 15,
+    "checkout_label_csv_path": "checkouts_label_details.csv",
+    "stale_task_after": "30m",
+    "stub_mode": false,
+    "storage": {
+      "accounts_path": "storage/accounts.json",
+      "orders_path": "storage/orders.json",
+      "normal_sessions_path": "storage/sessions/normal_sessions.csv",
+      "master_sessions_path": "storage/sessions/master_sessions.csv",
+      "masters_path": "storage/masters.json",
+      "runtime_path": "storage/runtime.json",
+      "task_queue_path": "storage/task_queue.json",
+      "database_path": "storage/state.sqlite",
+      "discovery_cache_path": "storage/account_discovery_snapshots.json",
+      "error_dedupe_path": "storage/error_webhook_dedupe.json",
+      "pending_reviews_path": "storage/pending_reviews.json"
+    },
+    "checkout_preorder_max_follows": 5,
+    "checkout_preorder_min_follows": 2
+  },
+  "app_versions": {
+    "whatnot": {
+      "web_app_version": "20260815-0238",
+      "ios_app_version": "26.33.5",
+      "ios_app_build": "18",
+      "ios_apollo_client_version": "2.0.6",
+      "ios_stripe_user_agent": "Whatnot/22 CFNetwork/3860.600.12 Darwin/25.5.0",
+      "mobile_checkout_library_version": "2.0.6",
+      "mobile_checkout_request_tag": "gql_sdk_version=2.0.6",
+      "referral_client_library_version": "2.0.6",
+      "browser_user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+      "browser_sec_ch_ua": "\"Not=A?Brand\";v=\"99\", \"Google Chrome\";v=\"151\", \"Chromium\";v=\"151\"",
+      "browser_sec_ch_ua_platform": "\"Windows\""
+    },
+    "stripe": {
+      "api_version": "2020-08-27",
+      "mobile_app_id": "com.whatnot",
+      "ios_version": "24.25.0",
+      "payment_user_agent": "stripe-ios/26.3.0; variant.paymentsheet; PaymentSheet",
+      "integration_version": "stripe-ios/26.3.0",
+      "bindings_version": "26.3.0"
+    },
+    "kasada": {
+      "version": "i-1.18.3",
+      "web_version": "j-1.2.711"
+    }
+  },
+  "hyper_proxy": true
+}

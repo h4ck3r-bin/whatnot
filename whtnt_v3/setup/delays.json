@@ -1,0 +1,148 @@
+{
+  "bulk": {
+    "bulk_checkout_between_rows": [
+      0,
+      0
+    ],
+    "bulk_review_between_reviews": [
+      0,
+      0
+    ]
+  },
+  "engine": {
+    "retry": [
+      5,
+      10
+    ],
+    "thread_start_cooldown": [
+      5,
+      5
+    ]
+  },
+  "orders": {
+    "after_follow_seller": [
+      60,
+      60
+    ],
+    "after_order": [
+      600,
+      1400
+    ],
+    "after_payment_method": [
+      20,
+      30
+    ],
+    "after_shipping_address": [
+      2,
+      5
+    ],
+    "before_checkout_basket": [
+      3,
+      8
+    ],
+    "before_place_order": [
+      5,
+      10
+    ],
+    "between_basket_orders": [
+      40,
+      60
+    ],
+    "between_checkout_follows": [
+      2,
+      5
+    ]
+  },
+  "reviews": {
+    "after_review_feed_lookup": [
+      1,
+      3
+    ],
+    "after_review_submit": [
+      2,
+      5
+    ],
+    "after_review_username_update": [
+      1,
+      3
+    ],
+    "before_review_submit": [
+      2,
+      5
+    ],
+    "before_review_username_update": [
+      1,
+      3
+    ],
+    "between_review_follows": [
+      2,
+      5
+    ],
+    "between_review_submissions": [
+      30,
+      90
+    ],
+    "review_preflight_follow": [
+      2,
+      5
+    ]
+  },
+  "signup": {
+    "after_accept_buyer_terms": [
+      1,
+      2
+    ],
+    "after_apply_referral": [
+      1,
+      2
+    ],
+    "after_follow_pokemons": [
+      1,
+      2
+    ],
+    "after_pow": [
+      1,
+      2
+    ],
+    "after_register": [
+      2,
+      10
+    ],
+    "after_web_invite_page": [
+      2,
+      5
+    ],
+    "after_web_kasada": [
+      1,
+      3
+    ],
+    "after_web_referral": [
+      3,
+      8
+    ],
+    "after_seon": [
+      1,
+      3
+    ],
+    "after_set_phone_number": [
+      1,
+      2
+    ],
+    "after_update_country": [
+      1,
+      2
+    ],
+    "after_update_username": [
+      1,
+      2
+    ],
+    "onboarding_step": [
+      1,
+      4
+    ],
+    "post_onboarding_step": [
+      2,
+      5
+    ]
+  }
+}

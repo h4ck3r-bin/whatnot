@@ -122,7 +122,7 @@ func (c *Client) ClaimNumber(ctx context.Context, countryISO string, _ any) (act
 			return "", "", wrap("smsbower", "ClaimNumber", e)
 		}
 
-		actID64, num, e := c.bower.ClaimNumber(ctx, "ew", cid, nil)
+		actID64, num, e := c.bower.ClaimNumber(ctx, "nv", cid, nil)
 		if e != nil {
 			return "", "", wrap("smsbower", "ClaimNumber", e)
 		}

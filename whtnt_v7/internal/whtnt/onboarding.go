@@ -685,6 +685,20 @@ func (m *Module) setPhoneNumberOnce(previousProvider string) (string, error) {
 
 	if smsPhoneNumber != "" && activationID != "" {
 		smsProvider = m.lastSMSProvider
+		// Check if this number was already used for referral credit by testing pre-registration
+		referralCode := m.resolveReferralCode()
+		if referralCode != "" {
+			if err := m.runWebPreRegistration(smsPhoneNumber, referralCode); err != nil {
+				if strings.Contains(err.Error(), "already used") {
+					m.log.PhoneError("Early-reserved number already used for referral credit, getting a new one...")
+					m.clearSMSState()
+					smsPhoneNumber = ""
+					activationID = ""
+				}
+			}
+		}
+	}
+	if smsPhoneNumber != "" && activationID != "" {
 		m.log.Phone(fmt.Sprintf("Reusing early-reserved number: %s (%s)", smsPhoneNumber, smsProvider))
 	} else {
 		smsCountryCode := chooseSMSCountryCode(cfg, smsProvider)

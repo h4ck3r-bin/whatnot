@@ -1,0 +1,185 @@
+{
+  "accessories_count": 0,
+  "audio_mute_status": false,
+  "audio_volume_current": 0,
+  "battery_charging": false,
+  "battery_level": 45,
+  "behaviour_results": null,
+  "calendar_identifier": "gregorian",
+  "can_send_mail": true,
+  "can_send_text": true,
+  "cpu_count": 6,
+  "cpu_type": "ARM_64E",
+  "device_adid": "00000000-0000-0000-0000-000000000000",
+  "device_hash": "eac5666f4c2d7dd3f82bd4a6325d461e25eb316d128d0ea6b6cfa08a2d569923",
+  "device_location": null,
+  "device_name": "iPhone 11",
+  "device_orientation": "Portrait",
+  "device_udid": "B85B213D-6318-4968-989E-68F72E465D6E",
+  "dynamic_evaluator_results": null,
+  "experimental_fields": {
+    "ap_is_hotspot": false,
+    "av_output_info": {
+      "channels": [
+        {
+          "channelLabel": 4294967295,
+          "channelName": "Głośnik 1",
+          "channelNumber": 1,
+          "owningPortUID": "Speaker"
+        },
+        {
+          "channelLabel": 4294967295,
+          "channelName": "Głośnik 2",
+          "channelNumber": 2,
+          "owningPortUID": "Speaker"
+        }
+      ],
+      "dataSources": [],
+      "portName": "Głośnik",
+      "portType": "Speaker",
+      "portUID": "Speaker"
+    },
+    "connected_accessories": 0,
+    "current_hash_provider": 1,
+    "date_format": "d MMM y",
+    "def_gw": "192.168.1.1",
+    "display_gamut": "P3",
+    "force_touch_support": "Unavailable",
+    "has_invalid_code_sig": false,
+    "implicit_device_hash": "3067424d38b0caded78bbd0a2c19302fe18b73fe7a9ceb8b9c82e635c8087ec6",
+    "is_arm64": true,
+    "is_cellular_data_restricted": false,
+    "is_display_zoom_enabled": false,
+    "is_flutter": false,
+    "is_low_power_enabled": true,
+    "is_plugged_in": false,
+    "is_react_native": false,
+    "is_root_fs_compromised": false,
+    "native_bounds": {
+      "native_height": 1792,
+      "native_origin_x": 0,
+      "native_origin_y": 0,
+      "native_width": 828
+    },
+    "nw_interfaces": {
+      "en0": "192.168.1.15",
+      "lo0": "127.0.0.1",
+      "utun4": "198.18.72.254"
+    },
+    "pid": 1,
+    "proxy_type": "kCFProxyTypeHTTPS",
+    "radio_technology": false,
+    "supported_biometry_type": "FaceID",
+    "thermal_state": 0,
+    "user_interface_style": "Dark",
+    "vpn_protocol": "utun4"
+  },
+  "geolocation_config": {
+    "geolocationEnabled": false,
+    "geolocationServiceTimeoutMs": 3000,
+    "maxGeoLocationCacheAgeSec": 60,
+    "prefetchEnabled": false
+  },
+  "icloud_ubiquity_token": "10fc2d1f 0c1784cd 775001c2 592c6957 31e7ee48",
+  "ios_device_name": "iPhone",
+  "ios_version": "18.3.1",
+  "is_assisstive_touch_running": false,
+  "is_biometrics_enabled": true,
+  "is_bold_text_enabled": false,
+  "is_darker_system_colors_enabled": false,
+  "is_debugger_attached": false,
+  "is_emulator": false,
+  "is_ios_app_on_mac": false,
+  "is_jailbroken": false,
+  "is_on_call": false,
+  "is_passcode_enabled": true,
+  "is_reduce_motion_enabled": false,
+  "is_reduce_transparency_enabled": false,
+  "is_screen_captured": false,
+  "is_video_autoplay_enabled": true,
+  "kernel_arch": "ARM_64E",
+  "kernel_name": "Darwin",
+  "kernel_version": "22D72",
+  "location_timestamp": -1,
+  "mfi_hearing_aids_status": 0,
+  "network_config": "WIFI",
+  "pasteboard_hash": "056cc3e4b91ffa46435bb981d0d98c329222ca41cf12825a533797330a9cc56e",
+  "performance_actual_processing": "2093.745",
+  "performance_exec_time": "2093.914",
+  "performance_network_call": "2004.014",
+  "performance_probes": {
+    "0": {
+      "0": "1.217",
+      "1": "19.560",
+      "2": "0.025"
+    },
+    "1": {
+      "0": "0.001",
+      "1": "0.054",
+      "2": "0.031"
+    },
+    "2": {
+      "0": "0.000",
+      "1": "0.559",
+      "2": "0.276"
+    },
+    "3": {
+      "0": "0.000",
+      "1": "3.148",
+      "2": "0.998"
+    },
+    "4": {
+      "0": "0.007",
+      "1": "9.555",
+      "2": "5.478"
+    },
+    "5": {
+      "0": "0.529",
+      "1": "16.508",
+      "2": "0.148"
+    },
+    "6": {
+      "0": "0.347",
+      "1": "0.467",
+      "2": "7.522"
+    },
+    "7": {
+      "0": "0.000",
+      "1": "0.147",
+      "2": "0.000"
+    },
+    "8": {
+      "0": "11.574",
+      "1": "18.281",
+      "2": "1.025"
+    },
+    "9": {
+      "0": "0.004",
+      "1": null,
+      "2": null
+    }
+  },
+  "physical_memory": 4040835072,
+  "port_scan_result": [],
+  "preferred_content_size": "XS",
+  "proxy_address": "198.18.72.253:8080",
+  "proxy_state": "CONNECTED",
+  "region_country": "PL",
+  "region_language": "pl",
+  "region_timezone": "+02:00",
+  "screen_brightness": 100,
+  "screen_height": 1792,
+  "screen_width": 828,
+  "session_id": "1314C074-151C-4F1D-BA6A-BB951352AD80",
+  "source": "ios-5.6.3",
+  "stored_errors": {
+    "SEONNetworkProbe_sendDynamicComponentRequest:dcRequestCompletionBlock::The request timed out.": 2
+  },
+  "system_uptime": 16061,
+  "timestamp": 1774997773920,
+  "timezone_identifier": "Europe/Warsaw",
+  "version_code": "01050603",
+  "vpn_state": "CONNECTED",
+  "wifi_mac_address": null,
+  "wifi_ssid": null
+}

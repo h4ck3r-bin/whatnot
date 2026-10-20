@@ -1,0 +1,41 @@
+[
+  {
+    "id": "master_acct_heisel_elina584_outlook_com",
+    "account_id": "acct_heisel_elina584_outlook_com",
+    "username": "lesliesaunders13154",
+    "email": "heisel.elina584@outlook.com",
+    "state": "Candidate",
+    "signup_count": 0,
+    "signup_cap": 85,
+    "session_id": "sess_heisel_elina584_outlook_com",
+    "ready_webhook_sent": false,
+    "created_at": "2026-04-29T19:59:32.5691785+01:00",
+    "updated_at": "2026-04-29T19:59:32.5691785+01:00"
+  },
+  {
+    "id": "master_acct_pelage_devina9049_outlook_com",
+    "account_id": "acct_pelage_devina9049_outlook_com",
+    "username": "fatimareese38681",
+    "email": "pelage.devina9049@outlook.com",
+    "state": "Candidate",
+    "signup_count": 0,
+    "signup_cap": 87,
+    "session_id": "sess_pelage_devina9049_outlook_com",
+    "ready_webhook_sent": false,
+    "created_at": "2026-04-29T21:09:18.5562082+01:00",
+    "updated_at": "2026-04-29T21:09:18.5562082+01:00"
+  },
+  {
+    "id": "master_acct_omarissaaachoen4_outlook_com",
+    "account_id": "acct_omarissaaachoen4_outlook_com",
+    "username": "devonglenn32730",
+    "email": "omarissaaachoen4@outlook.com",
+    "state": "Candidate",
+    "signup_count": 0,
+    "signup_cap": 105,
+    "session_id": "sess_omarissaaachoen4_outlook_com",
+    "ready_webhook_sent": false,
+    "created_at": "2026-04-30T08:53:30.6954103+01:00",
+    "updated_at": "2026-04-30T08:53:30.6954103+01:00"
+  }
+]

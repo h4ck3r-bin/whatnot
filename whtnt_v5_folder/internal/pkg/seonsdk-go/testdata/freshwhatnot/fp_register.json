@@ -1,0 +1,283 @@
+{
+  "accessories_count" : 0,
+  "audio_mute_status" : false,
+  "audio_volume_current" : 30,
+  "battery_charging" : false,
+  "battery_level" : 70,
+  "behaviour_results" : {
+    "heading_changes" : {
+      "1786184835" : 246.65010070800781,
+      "1786184836" : 248.06022644042969,
+      "1786184837" : 248.88352966308594,
+      "1786184838" : 256.57131958007812,
+      "1786184839" : 253.17327880859375,
+      "1786184841" : 252.15080261230469
+    },
+    "mag_declination" : 1.0881500244140625,
+    "max_gravity" : -0.25477838516235352,
+    "max_mag_field" : 887.31283091733587,
+    "max_rot_rate" : 2.9321884736306862,
+    "max_user_acc" : 0.60541504095298482,
+    "mean_gravity" : -0.6475634172558784,
+    "mean_mag_field" : 859.4878019514681,
+    "mean_rot_rate" : 0.3868001996930891,
+    "mean_user_acc" : 0.055455975624781696,
+    "median_gravity" : -0.65930479764938354,
+    "median_mag_field" : 858.36611519189228,
+    "median_rot_rate" : 0.24982118963409655,
+    "median_user_acc" : 0.031316388162210433,
+    "min_gravity" : -0.76961344480514526,
+    "min_mag_field" : 844.09212594019311,
+    "min_rot_rate" : 0.0047557424133465543,
+    "min_user_acc" : 0.0013425687310186162,
+    "monitoring_duration" : 0,
+    "most_freq_attitude" : {
+      "w" : 0.90999999999999992,
+      "x" : 0.40999999999999998,
+      "y" : 0.02,
+      "z" : -0.01
+    },
+    "orientation_changes" : {
+      "1786184649" : [
+        9
+      ],
+      "1786184650" : [
+        2
+      ],
+      "1786184651" : [
+        9
+      ],
+      "1786184653" : [
+        2
+      ],
+      "1786184654" : [
+        9
+      ],
+      "1786184821" : [
+        2
+      ],
+      "1786184822" : [
+        9
+      ]
+    },
+    "p95_gravity" : -0.49487993121147156,
+    "p95_mag_field" : 872.97390539736352,
+    "p95_rot_rate" : 1.2216607424866297,
+    "p95_user_acc" : 0.18012032287025256,
+    "var_gravity" : 0.0053648236923174997,
+    "var_mag_field" : 44.435556004755199,
+    "var_rot_rate" : 0.19243619160004827,
+    "var_user_acc" : 0.0048194359698459956
+  },
+  "calendar_identifier" : "gregorian",
+  "can_send_mail" : true,
+  "can_send_text" : true,
+  "codename" : "iPhone18,2",
+  "core_seed" : "559856673",
+  "cpu_count" : 6,
+  "cpu_type" : "ARM_64E",
+  "device_adid" : "00000000-0000-0000-0000-000000000000",
+  "device_hash" : "72e9a2ccdae0e57b57ffe7c146dc7c78550f2b69ea0d1ba05233e3d5c6080e12",
+  "device_location" : null,
+  "device_orientation" : "Portrait",
+  "device_udid" : "581D0E7E-3525-449E-9363-16C62045969F",
+  "dynamic_evaluator_results" : "iOS;EB9EEBF6-33F3-4837-95CE-5CEF5A9E89B7;Lq8ClBRpgf+S\/NSY85I1sA==;IELw\/ZXxXgdrcIwCz1RFpXDlNPsSTlDBwrk8A+2\/jdpC5Bwmmj+yWeiFfftg5wLBi6T\/T7CxNUsY7FuPhJONvtxR93wjtBCx4kRCyP5oQHWKs8IXDbqFonruGV3yuNSz",
+  "experimental_fields" : {
+    "ap_is_hotspot" : false,
+    "av_output_info" : {
+      "channels" : [
+        {
+          "channelLabel" : 4294967295,
+          "channelName" : "Speaker 1",
+          "channelNumber" : 1,
+          "owningPortUID" : "Speaker"
+        },
+        {
+          "channelLabel" : 4294967295,
+          "channelName" : "Speaker 2",
+          "channelNumber" : 2,
+          "owningPortUID" : "Speaker"
+        }
+      ],
+      "dataSources" : [
+
+      ],
+      "portName" : "Speaker",
+      "portType" : "Speaker",
+      "portUID" : "Speaker"
+    },
+    "connected_accessories" : 0,
+    "current_hash_provider" : 1,
+    "date_format" : "d MMM y",
+    "def_gw" : "192.168.137.1",
+    "display_gamut" : "P3",
+    "force_touch_support" : "Unavailable",
+    "has_invalid_code_sig" : false,
+    "is_arm64" : true,
+    "is_carplay_active" : false,
+    "is_cellular_data_restricted" : false,
+    "is_display_zoom_enabled" : false,
+    "is_flutter" : false,
+    "is_low_power_enabled" : false,
+    "is_plugged_in" : false,
+    "is_react_native" : false,
+    "is_root_fs_compromised" : false,
+    "is_unity_host" : false,
+    "metal_info" : {
+      "duration_ms" : 0.065922737121582031,
+      "gpu_architecture" : "applegpu_g18p",
+      "gpu_argument_buffers_tier" : 1,
+      "gpu_family" : 10,
+      "gpu_has_unified_memory" : true,
+      "gpu_max_buffer_length" : 6442450944,
+      "gpu_max_threadgroup_memory" : 32768,
+      "gpu_max_threads_per_threadgroup_depth" : 1024,
+      "gpu_max_threads_per_threadgroup_height" : 1024,
+      "gpu_max_threads_per_threadgroup_width" : 1024,
+      "gpu_name" : "Apple A19 Pro GPU",
+      "gpu_recommended_max_working_set" : 8589950976,
+      "gpu_rw_texture_tier" : 2,
+      "gpu_supports_raytracing" : true
+    },
+    "native_bounds" : {
+      "native_height" : 2868,
+      "native_origin_x" : 0,
+      "native_origin_y" : 0,
+      "native_width" : 1320
+    },
+    "native_scale" : 3,
+    "nw_interfaces" : {
+      "en0" : "192.168.137.221",
+      "ipsec6" : "10.177.103.216",
+      "ipsec7" : "10.177.103.216",
+      "lo0" : "127.0.0.1",
+      "pdp_ip0" : "10.211.17.39",
+      "pdp_ip2" : "10.177.103.216"
+    },
+    "pid" : 1,
+    "proxy_type" : "kCFProxyTypeHTTPS",
+    "radio_technology" : true,
+    "screen_bounds" : {
+      "screen_height" : 2868,
+      "screen_origin_x" : 0,
+      "screen_origin_y" : 0,
+      "screen_width" : 1320
+    },
+    "screen_scale" : 3,
+    "supported_biometry_type" : "FaceID",
+    "thermal_state" : 0,
+    "unity_host_reason" : null,
+    "user_interface_style" : "Dark",
+    "vpn_protocol" : "UNKNOWN"
+  },
+  "geolocation_config" : {
+    "geolocationEnabled" : false,
+    "geolocationServiceTimeoutMs" : 3000,
+    "maxGeoLocationCacheAgeSec" : 60,
+    "prefetchEnabled" : false
+  },
+  "icloud_ubiquity_token" : "77d5e09f 60432647 e096c87f 1a38ff15 1a6c3ceb",
+  "ios_version" : "26.5.2",
+  "is_assisstive_touch_running" : false,
+  "is_biometrics_enabled" : true,
+  "is_bold_text_enabled" : false,
+  "is_darker_system_colors_enabled" : false,
+  "is_debugger_attached" : false,
+  "is_emulator" : false,
+  "is_ios_app_on_mac" : false,
+  "is_jailbroken" : false,
+  "is_on_call" : false,
+  "is_passcode_enabled" : true,
+  "is_reduce_motion_enabled" : false,
+  "is_reduce_transparency_enabled" : false,
+  "is_screen_captured" : false,
+  "is_video_autoplay_enabled" : true,
+  "kernel_arch" : "ARM_64E",
+  "kernel_name" : "Darwin",
+  "kernel_version" : "23F84",
+  "location_timestamp" : -1,
+  "mfi_hearing_aids_status" : 0,
+  "network_config" : "WIFI",
+  "pasteboard_hash" : "2419fa97fef005c2a22d13efb6ba5ea4951cfcb24a0d7e5a2b98ddb0d887225a",
+  "performance_actual_processing" : "292.088",
+  "performance_exec_time" : "2301.987",
+  "performance_network_call" : "213.596",
+  "performance_probes" : {
+    "0" : {
+      "0" : "0.192",
+      "1" : "15.847",
+      "2" : "0.471"
+    },
+    "1" : {
+      "0" : "0.003",
+      "1" : "0.065",
+      "2" : "0.010"
+    },
+    "2" : {
+      "0" : "0.000",
+      "1" : "0.343",
+      "2" : "0.068"
+    },
+    "3" : {
+      "0" : "0.000",
+      "1" : "8.810",
+      "2" : "0.196"
+    },
+    "4" : {
+      "0" : "0.002",
+      "1" : "2.059",
+      "2" : "0.520"
+    },
+    "5" : {
+      "0" : "0.010",
+      "1" : "16.694",
+      "2" : "0.050"
+    },
+    "6" : {
+      "0" : "0.000",
+      "1" : "0.323",
+      "2" : "1.733"
+    },
+    "7" : {
+      "0" : "0.000",
+      "1" : "9.090",
+      "2" : "0.000"
+    },
+    "8" : {
+      "0" : "0.944",
+      "1" : "10.034",
+      "2" : "0.003"
+    },
+    "9" : {
+      "0" : "0.001",
+      "1" : null,
+      "2" : null
+    }
+  },
+  "physical_memory" : 12262113280,
+  "port_scan_result" : [
+
+  ],
+  "preferred_content_size" : "L",
+  "proxy_address" : "192.168.0.134:8080",
+  "proxy_state" : "CONNECTED",
+  "region_country" : "GB",
+  "region_language" : "en",
+  "region_timezone" : "+01:00",
+  "request_id" : "24BD6A98-9ACA-40A1-A316-89F626254463",
+  "screen_brightness" : 44,
+  "screen_height" : 2868,
+  "screen_width" : 1320,
+  "session_id" : "EB9EEBF6-33F3-4837-95CE-5CEF5A9E89B7",
+  "source" : "ios-5.7.1",
+  "stored_errors" : {
+
+  },
+  "system_uptime" : 303620,
+  "timestamp" : 1786184841640,
+  "timezone_identifier" : "Europe\/London",
+  "version_code" : "01050701",
+  "vpn_state" : "NOT_CONNECTED",
+  "wifi_mac_address" : null,
+  "wifi_ssid" : null
+}
